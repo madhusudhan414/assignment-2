@@ -1,0 +1,31 @@
+
+
+img{
+    max-width: 260px;
+    max-height: 260px;
+    
+}
+
+.gridcontainer{
+
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+}
+
+.gridflexitem{
+
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    margin: 10px;
+   align-items: center;
+   padding: 10px;
+   
+}
+
+button{
+    width: 120px;
+    background-color:skyblue;
+    margin: 10px;
+    margin-right: 0;
+}
